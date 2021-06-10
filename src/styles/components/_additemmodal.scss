@@ -1,0 +1,40 @@
+.ReactModalPortal > div {
+    opacity: 0;
+    z-index: 5;
+}
+
+.ReactModalPortal .ReactModal__Overlay{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity 300ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+
+.addItemModal{
+    height: 70vh;
+    width: 50vw;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.close-addItem-btn{
+    height: 20px;
+    width: 20px;
+}
+
+
+.addItem-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}

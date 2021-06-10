@@ -1,0 +1,35 @@
+.dash-header{
+    height: 80px;
+    width:100vw;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-logo-contents{
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-logo{
+    height:55px;
+    width: 225px;
+}
+
+.dash-links-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+}
+
+.dash-login-link{
+    margin: 0px 10px;
+    padding: 2px 5px;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    font-family: "Sedan SC";
+}

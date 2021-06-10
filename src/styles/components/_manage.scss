@@ -1,0 +1,35 @@
+.manage-header{
+    margin-bottom: 20px;
+}
+
+
+.item-card-list{
+    margin: 0;
+    padding: 0;
+    height: 120%;
+    list-style-type: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.li-cards{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-comp{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-actions{
+    display: flex;
+    margin-top: auto;
+}

@@ -1,0 +1,17 @@
+.imgChange-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.currentImg-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.current-item-img{
+    height: 100px;
+    width: 150px;
+
+}

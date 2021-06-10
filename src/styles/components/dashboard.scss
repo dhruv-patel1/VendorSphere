@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: lightgrey;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(102, 101, 101);
+  outline: 1px solid slategrey;
+}
+
+
+.landing-page{
+    height: calc(60vh - 80px);
+    width: 100vw;
+    background-color: lavenderblush; 
+}
+
+.dashboard-page{
+    height: 60vh;
+    width: 100vw;
+    background-color: lemonchiffon;
+}
